@@ -11,12 +11,18 @@
   },
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
+    "localforage": "^1.10.0",
+    "mobx": "^6.13.5",
+    "mobx-persist": "^0.4.1",
+    "mobx-react": "^9.1.1",
+    "mobx-react-lite": "^4.0.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "@types/localforage": "^0.0.33",
     "@types/node": "^22.8.6",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
