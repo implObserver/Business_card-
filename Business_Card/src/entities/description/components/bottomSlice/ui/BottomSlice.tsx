@@ -13,26 +13,31 @@ export const BottomSlice = () => {
 
     return (
         <div className={styles.container}>
-        <div className={styles.header}>
-            <div className={styles.name}>
-                {context.name}
-            </div>
-            <div>
-                <a href={context.link}></a>
-            </div>
-        </div>
-        <div className={styles.slice}>
-            {context.description}
-            {parameters.length > 0
-                ? <div className={styles.parameters}>
-                    <span>Параметры:</span>
-                    <ul>
-                        {fillParameters()}
-                    </ul>
+            <div className={styles.links}>
+                <div className={styles.link}>
+                    <a href={context.link}></a>
                 </div>
-                : <></>
-            }
+                <div className={styles.github}>
+                    <a href={context.link}></a>
+                </div>
+            </div>
+            <div className={styles.header}>
+                <div className={styles.name}>
+                    {context.name}
+                </div>
+            </div>
+            <div className={styles.slice}>
+                {context.description}
+                {parameters.length > 0
+                    ? <div className={styles.parameters}>
+                        <span>Параметры:</span>
+                        <ul>
+                            {fillParameters()}
+                        </ul>
+                    </div>
+                    : <></>
+                }
+            </div>
         </div>
-    </div>
     )
 }

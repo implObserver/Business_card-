@@ -2,7 +2,7 @@
     display: grid;
     grid-area: once;
     transition: transform 500ms ease-in-out;
-    z-index: 2;
+    z-index: 3;
 }
 
 .slice {
@@ -14,6 +14,7 @@
     border-radius: 0.5vw;
     background-color: white;
     padding: 1vw;
+    min-height: 10vw;
 }
 
 .parameters {

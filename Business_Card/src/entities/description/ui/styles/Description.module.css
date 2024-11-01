@@ -1,7 +1,6 @@
 .description {
     display: grid;
     width: 80vw;
-  
     height: min-content;
     padding: 1vw;
     grid-template-areas: 'once';
