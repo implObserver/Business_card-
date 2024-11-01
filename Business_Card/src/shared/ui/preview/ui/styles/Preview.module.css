@@ -1,0 +1,6 @@
+.preview {
+    display: flex;
+    border: 0.5vw black solid;
+    border-radius: 0.5vw;
+    width: min-content;
+}

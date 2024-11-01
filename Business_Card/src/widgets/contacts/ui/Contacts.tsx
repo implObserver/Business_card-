@@ -7,6 +7,8 @@ export const Contacts = () => {
             <TitleContext.Provider value={titleContext}>
                 <Title></Title>
             </TitleContext.Provider>
+            <a href="https://github.com/implObserver">ссылка гитхаб</a>
+            <a href="mailto:sitnikov1vs@gmail.com">ссылка почта</a>
         </div>
     )
 }

@@ -1,0 +1,11 @@
+.projects {
+    display: grid;
+    border: 0.5vw black solid;
+    padding: 2vw;
+    gap:2vw;
+}
+
+.project {
+    border: 2px black solid;
+    justify-items: center;
+}

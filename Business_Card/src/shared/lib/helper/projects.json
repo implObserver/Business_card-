@@ -7,7 +7,11 @@
             "До 4 игроков",
             "Присутствует непобедимый min-max алгоритм"
         ],
-        "preview": "",
+        "preview": [
+            "/src/shared/assets/projects/ticTacToe/ticTacToe_scale,w_50.webp",
+            "/src/shared/assets/projects/ticTacToe/ticTacToe_scale,w_905.webp",
+            "/src/shared/assets/projects/ticTacToe/ticTacToe_scale,w_1318.webp"
+        ],
         "link": ""
     },
     "BattleShip": {
@@ -18,7 +22,11 @@
             "2 игрока",
             "Формат классический, русский"
         ],
-        "preview": "",
+        "preview": [
+            "/src/shared/assets/projects/battleShip/battleShip_znkt60_c_scale,w_50.webp",
+            "/src/shared/assets/projects/battleShip/battleShip_znkt60_c_scale,w_750.webp",
+            "/src/shared/assets/projects/battleShip/battleShip_znkt60_c_scale,w_1318.webp"
+        ],
         "link": ""
     },
     "KnightsTravails": {
@@ -28,7 +36,11 @@
             "При построении пути применяется граф"
         ],
         "parameters": [],
-        "preview": "",
+        "preview": [
+            "/src/shared/assets/projects/knightTravelers/knightTravelers_ipiv1f_c_scale,w_50.webp",
+            "/src/shared/assets/projects/knightTravelers/knightTravelers_ipiv1f_c_scale,w_727.webp",
+            "/src/shared/assets/projects/knightTravelers/knightTravelers_ipiv1f_c_scale,w_1318.webp"
+        ],
         "link": ""
     },
     "TODOManager": {
@@ -38,7 +50,11 @@
             "Для хранения данных применяется localStorage"
         ],
         "parameters": [],
-        "preview": "",
+        "preview": [
+            "/src/shared/assets/projects/TODO-Manager/TODO-Manager_lj0ive_c_scale,w_50.webp",
+            "/src/shared/assets/projects/TODO-Manager/TODO-Manager_lj0ive_c_scale,w_1160.webp",
+            "/src/shared/assets/projects/TODO-Manager/TODO-Manager_lj0ive_c_scale,w_1318.webp"
+        ],
         "link": ""
     },
     "WeatherApp": {
@@ -48,7 +64,11 @@
             "В проекте применяется 2 API, одно для получения информации о погоде, другое для обновления фоновых изображений на странице."
         ],
         "parameters": [],
-        "preview": "",
+        "preview": [
+            "/src/shared/assets/projects/WeatherApp/WeatherApp_pqwqwj_c_scale,w_50.webp",
+            "/src/shared/assets/projects/WeatherApp/WeatherApp_pqwqwj_c_scale,w_688.webp",
+            "/src/shared/assets/projects/WeatherApp/WeatherApp_pqwqwj_c_scale,w_1318.webp"
+        ],
         "link": ""
     },
     "CVApplication": {
@@ -57,7 +77,11 @@
             "Написанный на реакт конструктор для резюме."
         ],
         "parameters": [],
-        "preview": "",
+        "preview": [
+            "/src/shared/assets/projects/cvApplication/cvApplication_rvirmq_c_scale,w_50.webp",
+            "/src/shared/assets/projects/cvApplication/cvApplication_rvirmq_c_scale,w_795.webp",
+            "/src/shared/assets/projects/cvApplication/cvApplication_rvirmq_c_scale,w_1223.webp"
+        ],
         "link": "https://cv-applicationstudyproject.netlify.app/"
     },
     "MemoryCard": {
@@ -73,7 +97,11 @@
             "Feature Sliced Design",
             "1 игрок"
         ],
-        "preview": "",
+        "preview": [
+            "/src/shared/assets/projects/memoryCard/memoryCard_uutnw8_c_scale,w_50.webp",
+            "/src/shared/assets/projects/memoryCard/memoryCard_uutnw8_c_scale,w_785.webp",
+            "/src/shared/assets/projects/memoryCard/memoryCard_uutnw8_c_scale,w_1195.webp"
+        ],
         "link": "https://memorycardgamepokemon.netlify.app/"
     },
     "BlogApi": {
@@ -97,7 +125,11 @@
             "Присутствует непобедимый min-max алгоритм",
             "onlyhttp Cookies"
         ],
-        "preview": "",
+        "preview": [
+            "/src/shared/assets/projects/blogApi/blogApi_oop04s_c_scale,w_50.webp",
+            "/src/shared/assets/projects/blogApi/blogApi_oop04s_c_scale,w_773.webp",
+            "/src/shared/assets/projects/blogApi/blogApi_oop04s_c_scale,w_1237.webp"
+        ],
         "link": "https://blogapifront.netlify.app/"
     },
     "OldBusinessSite": {
@@ -107,7 +139,11 @@
             "Написан без использования react и FSD, труден для масштабирования"
         ],
         "parameters": [],
-        "preview": "",
+        "preview": [
+            "/src/shared/assets/projects/oldBusinessCard/oldBusinessCard_violjy_c_scale,w_50.webp",
+            "/src/shared/assets/projects/oldBusinessCard/oldBusinessCard_violjy_c_scale,w_817.webp",
+            "/src/shared/assets/projects/oldBusinessCard/oldBusinessCard_violjy_c_scale,w_1244.webp"
+        ],
         "link": "https://implobserver.github.io/homepage/"
     }
 }

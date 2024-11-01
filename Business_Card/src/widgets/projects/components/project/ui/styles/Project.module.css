@@ -1,0 +1,7 @@
+.project {
+    display: flex;
+    padding: 1vw;
+    gap:2vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}

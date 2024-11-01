@@ -1,0 +1,32 @@
+.title {
+    display: grid;
+    padding: 2vw;
+}
+
+.firstname {
+    padding-left: 10vw;
+}
+
+.secondname {
+    padding-left: 20vw;
+}
+
+.profession {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5vw;
+    gap: 2vw;
+    padding-left: 30vw;
+    padding-top: 3vw;
+}
+
+.firstname,
+.secondname {
+    font-size: 10vw;
+    font-weight: 200;
+}
+
+.developer {
+    display: flex;
+    flex-wrap: wrap;
+}

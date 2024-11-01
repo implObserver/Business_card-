@@ -1,5 +1,7 @@
+import styles from './styles/Logo.module.css'
+
 export const Logo = () => {
     return (
-        <span>VS</span>
+        <span className={styles.logo}>VS</span>
     )
 }

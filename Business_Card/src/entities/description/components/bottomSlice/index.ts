@@ -1,0 +1,1 @@
+export { BottomSlice } from './ui/BottomSlice'

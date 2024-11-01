@@ -1,0 +1,14 @@
+.main {
+    display: grid;
+    padding: 0.5vw;
+    gap:1vw;
+}
+
+/*
+background-image: url('/src/shared/assets/preview4.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    scroll-behavior: smooth; 
+*/
