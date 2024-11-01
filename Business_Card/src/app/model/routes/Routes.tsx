@@ -7,7 +7,7 @@ const routes = [
         children: [
             {
                 path: "",
-                element: <></>,
+                element: <>test Outlet</>,
             },
 
         ],
