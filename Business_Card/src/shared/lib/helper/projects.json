@@ -1,0 +1,113 @@
+{
+    "TicTacToe": {
+        "name": "Крестики-нолики",
+        "description": [],
+        "parameters": [
+            "Оффлайн",
+            "До 4 игроков",
+            "Присутствует непобедимый min-max алгоритм"
+        ],
+        "preview": "",
+        "link": ""
+    },
+    "BattleShip": {
+        "name": "Морской бой",
+        "description": [],
+        "parameters": [
+            "Оффлайн",
+            "2 игрока",
+            "Формат классический, русский"
+        ],
+        "preview": "",
+        "link": ""
+    },
+    "KnightsTravails": {
+        "name": "Путь конем",
+        "description": [
+            "Визуализация алгоритма, который выстраивает кратчайший путь конем из произвольных пунктов А и Б.",
+            "При построении пути применяется граф"
+        ],
+        "parameters": [],
+        "preview": "",
+        "link": ""
+    },
+    "TODOManager": {
+        "name": "Записная книжка",
+        "description": [
+            "Примитивная имитация файловой системы внутри веб-браузера. Можно создавать структуры папок и текстовых записей.",
+            "Для хранения данных применяется localStorage"
+        ],
+        "parameters": [],
+        "preview": "",
+        "link": ""
+    },
+    "WeatherApp": {
+        "name": "Прогноз погоды",
+        "description": [
+            "Веб-страничка, которая позволяет получить прогноз погоды для какого-нибудь города.",
+            "В проекте применяется 2 API, одно для получения информации о погоде, другое для обновления фоновых изображений на странице."
+        ],
+        "parameters": [],
+        "preview": "",
+        "link": ""
+    },
+    "CVApplication": {
+        "name": "Резюме-конструктор",
+        "description": [
+            "Написанный на реакт конструктор для резюме."
+        ],
+        "parameters": [],
+        "preview": "",
+        "link": "https://cv-applicationstudyproject.netlify.app/"
+    },
+    "MemoryCard": {
+        "name": "Игра 'Запомни карту'",
+        "description": [
+            "Написанный на React сайт-игра, на котором надо набрать как можно больше очков, не повторившись при выборе карты.",
+            "Сайт написан с применением Redux Toolkit",
+            "В проекте применяется архитектура FSD"
+        ],
+        "parameters": [
+            "React",
+            "Redux Toolkit",
+            "Feature Sliced Design",
+            "1 игрок"
+        ],
+        "preview": "",
+        "link": "https://memorycardgamepokemon.netlify.app/"
+    },
+    "BlogApi": {
+        "name": "Блог",
+        "description": [
+            "Fullstack приложение, блог+конструктор для постов блога",
+            "Можно конструировать свои посты и публиковать в блоге",
+            "ВНИМАНИЕ: применяются бесплатные хостинги, возможны проблемы с доступом к сайту или замедление работы"
+        ],
+        "parameters": [
+            "Два фронтенда",
+            "React",
+            "Feature Sliced Design",
+            "SPA(The Single Page Application)",
+            "Redux Toolkit/Persist",
+            "IndexedDB",
+            "postgresql(Prisma)",
+            "node js(express)",
+            "Passport(local/jwt)",
+            "Авторизация с рассылкой на почтовый ящик",
+            "Присутствует непобедимый min-max алгоритм",
+            "onlyhttp Cookies"
+        ],
+        "preview": "",
+        "link": "https://blogapifront.netlify.app/"
+    },
+    "OldBusinessSite": {
+        "name": "Старый сайт-визитка",
+        "description": [
+            "Мой первый сайт визитка",
+            "Написан без использования react и FSD, труден для масштабирования"
+        ],
+        "parameters": [],
+        "preview": "",
+        "link": "https://implobserver.github.io/homepage/"
+    }
+}

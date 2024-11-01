@@ -1,4 +1,5 @@
 import { MainLayout } from "@/app/ui/layouts/MainLayout";
+import { Main } from "@/pages/main";
 
 const routes = [
     {
@@ -7,7 +8,7 @@ const routes = [
         children: [
             {
                 path: "",
-                element: <>test Outlet</>,
+                element: <Main></Main>,
             },
 
         ],
