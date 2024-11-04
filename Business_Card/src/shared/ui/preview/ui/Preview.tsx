@@ -15,10 +15,11 @@ export const Preview = () => {
     return (
         <div className={styles.preview}>
             <img
-                sizes="(max-width: 1318px) 50vw, min(1318px,40vw)"
+                sizes="(max-width: calc(var(--responsive-size)*80)) calc(var(--responsive-size)*50)), min(calc(var(--responsive-size)*80)))"
                 srcSet={srcSetString}
                 src={previews[previews.length - 1]}
                 alt="Описание изображения"
+
             />
         </div>
     );

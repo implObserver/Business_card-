@@ -1,15 +1,10 @@
-.preview {
+.preview>img {
     display: flex;
     border: calc(var(--responsive-size)*0.3) rgb(250, 236, 218) solid;
     border-radius: calc(var(--responsive-size) * 0.5);
     width: min-content;
-    overflow: hidden;
-    max-width: 100%;
-    border:1px red solid;
+    background-size: contain;
+    min-width: calc(var(--responsive-size)*40);
+    max-width: calc(var(--responsive-size)*80);
     justify-content: center;
-}
-
-.preview img {
-    width: 100%; /* Изображение занимает всю ширину контейнера */
-    height: auto; /* Сохраняет соотношение сторон */
 }
