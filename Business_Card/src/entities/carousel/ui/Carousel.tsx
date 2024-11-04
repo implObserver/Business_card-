@@ -18,7 +18,7 @@ export const Carousel = () => {
         return () => {
             clearInterval(interval);
         };
-    }, [])
+    }, [currentIndex, isAnimating])
 
     const nextSlide = () => {
         if (isAnimating) return; // Не выполнять, если идет анимация
