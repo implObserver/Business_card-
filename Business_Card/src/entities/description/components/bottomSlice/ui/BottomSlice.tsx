@@ -6,10 +6,16 @@ import { Line } from '@/shared/ui/line';
 export const BottomSlice = () => {
     const context = useDescriptionContext();
     const parameters = context.parameters;
-
+    const description = context.description;
     const fillParameters = () => {
         return parameters.map((parameter, index) => {
             return <li key={index}>{parameter}</li>
+        })
+    }
+
+    const fillDescription = () => {
+        return description.map((span, index) => {
+            return <span key={index}>{span}</span>
         })
     }
 
@@ -34,7 +40,7 @@ export const BottomSlice = () => {
                                 <Line text={'Описание:'}></Line>
                             </div>
                             <div className={styles.description}>
-                                {context.description}
+                                {fillDescription()}
                             </div>
                         </div>
                         : <></>

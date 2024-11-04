@@ -1,0 +1,59 @@
+:root {
+    --component-size: calc(var(--responsive-size)*12);
+    --component-gap: calc(var(--responsive-size)*1);
+    --component-count: 4;
+    --component_full-size: calc(var(--component-size) + var(--component-gap));
+    --components-size:
+        calc(var(--component_full-size) * var(--component-count) - var(--responsive-size));
+}
+
+.wrapper {
+    display: flex;
+    gap: var(--responsive-size);
+}
+
+.container {
+    display: grid;
+    gap: var(--responsive-size);
+    justify-items: center;
+}
+
+.span {
+    display: flex;
+    width: var(--component-size);
+    text-align: center;
+    justify-content: center;
+    font-size: calc(var(--responsive-size)*1.5);
+}
+
+.carousel {
+    display: grid;
+    width: var(--components-size);
+    overflow: hidden;
+}
+
+.components {
+    display: flex;
+    position: relative;
+    gap: var(--responsive-size);
+    transition: right 300ms ease-in-out, left 300ms ease-in-out;
+}
+
+.component {
+    display: flex;
+    border: calc(var(--responsive-size)*0.3) var(--color__main-theme_accent) solid;
+    width: var(--component-size);
+    height: var(--component-size);
+}
+
+.prev {
+    width: var(--component-size);
+    height: var(--component-size);
+    background-image: url(../../../../shared/assets/components/arrow-left.svg);
+}
+
+.next {
+    width: var(--component-size);
+    height: var(--component-size);
+    background-image: url(../../../../shared/assets/components/arrow-right.svg);
+}

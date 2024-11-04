@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: calc(var(--responsive-size));
-    background-color: rgb(253, 246, 237);
-    border: calc(var(--responsive-size)*0.2) rgb(250, 236, 218) solid;
+    background-color: var(--color__main-theme);
+    border: calc(var(--responsive-size)*0.4) var(--color__main-theme_accent) solid;
     border-radius: 0 0 var(--responsive-size) var(--responsive-size);
 }

@@ -46,9 +46,11 @@
 }
 
 .description {
-    display: flex;
+    display: grid;
     padding: var(--responsive-size);
+    padding-left: calc(var(--responsive-size) * 4);
     font-size: calc(var(--responsive-size) * 2);
+    gap: var(--responsive-size);
     z-index: 1;
 }
 

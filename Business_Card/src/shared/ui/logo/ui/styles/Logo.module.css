@@ -1,3 +1,32 @@
 .logo {
+    display: flex;
     font-size: calc(var(--responsive-size)*6);
+}
+
+.first_letter {
+    position: relative;
+    transform-style: preserve-3d;
+    animation: letterRotate 10s linear infinite;
+    animation-delay: 20s;
+}
+
+.second_letter {
+    position: relative;
+    transform-style: preserve-3d;
+    animation: letterRotate 10s linear infinite;
+    animation-delay: 23s;
+}
+
+@keyframes letterRotate {
+    0%,
+    40% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+
+    60%,
+    100% {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
 }

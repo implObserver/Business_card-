@@ -9,15 +9,17 @@ export const MainLayout: React.FC = () => {
 
     return (
         <div className={styles.main_layout}>
-            <header className={styles.header}>
-                <Header />
-            </header>
-            <div className={styles.outlet}>
-                <Outlet />
+            <div className={styles.plug}>
+                <header className={styles.header}>
+                    <Header />
+                </header>
+                <div className={styles.outlet}>
+                    <Outlet />
+                </div>
+                <footer>
+                    <Footer />
+                </footer>
             </div>
-            <footer>
-                <Footer />
-            </footer>
         </div>
     );
 };

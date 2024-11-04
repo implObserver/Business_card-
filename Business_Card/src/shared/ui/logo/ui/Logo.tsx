@@ -2,6 +2,9 @@ import styles from './styles/Logo.module.css'
 
 export const Logo = () => {
     return (
-        <span className={styles.logo}>VS</span>
+        <div className={styles.logo}>
+            <span className={styles.first_letter}>V</span>
+            <span className={styles.second_letter}>S</span>
+        </div>
     )
 }

@@ -2,6 +2,7 @@ import { MyDescription } from "@/entities/myDescription";
 import { Title, TitleContext } from "@/shared/ui/title";
 import styles from './styles/AboutMe.module.css'
 import { Line } from "@/shared/ui/line";
+import { Carousel } from "@/entities/carousel";
 
 export const AboutMe = () => {
     const titleContext: string = 'Обо мне';
@@ -12,7 +13,7 @@ export const AboutMe = () => {
             </TitleContext.Provider>
             <Line text={''}></Line>
             <MyDescription></MyDescription>
-            <span>тут будет стэк-скроллер</span>
+            <Carousel></Carousel>
         </div>
     )
 }

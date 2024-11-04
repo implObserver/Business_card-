@@ -2,8 +2,9 @@
     display: grid;
     padding: calc(var(--responsive-size)*2);
     border-radius: var(--responsive-size) var(--responsive-size) var(--responsive-size) var(--responsive-size);
-    background-color: rgb(253, 246, 237);
-    border: calc(var(--responsive-size)*0.3) rgb(250, 236, 218) solid;
+    background-color: var(--color__main-theme);
+    border: calc(var(--responsive-size)*0.4) var(--color__main-theme_accent) solid;
     text-align: center;
-    gap: calc(var(--responsive-size)*2)
+    gap: calc(var(--responsive-size)*2);
+    justify-items: center;
 }

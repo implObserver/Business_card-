@@ -6,10 +6,14 @@
 
 .firstname {
     padding-left: calc(10 * var(--responsive-size));
+    animation: slideIn 1s ease-out forwards; /* Настройка анимации */
 }
 
 .secondname {
     padding-left: calc(20 * var(--responsive-size));
+    animation: slideIn 1s ease-out forwards; /* Настройка анимации */
+    animation-delay: 0.5s; /* Задержка для эффекта */
+    opacity: 0;
 }
 
 .profession {
@@ -19,15 +23,29 @@
     gap: calc(2 * var(--responsive-size));
     padding-left: calc(30 * var(--responsive-size));
     padding-top: calc(3 * var(--responsive-size));
+    animation: slideIn 1s ease-out forwards; /* Настройка анимации */
+    animation-delay: 1s; /* Задержка для эффекта */
+    opacity: 0;
 }
 
 .firstname,
 .secondname {
     font-size: calc(10 * var(--responsive-size));
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .developer {
     display: flex;
     flex-wrap: wrap;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100vw); /* Начальная позиция за краем экрана */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0); /* Конечная позиция на экране */
+    }
 }

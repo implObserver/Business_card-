@@ -6,7 +6,7 @@ import { Line } from "@/shared/ui/line";
 export const TopSlice = () => {
     const context = useDescriptionContext();
     const parameters = context.parameters;
-
+    const description = context.description;
     const containerRef = useRef<HTMLDivElement>();
     const [scrollDirection, setScrollDirection] = useState(null); // Направление скролла
     const prevScrollY = useRef(0); // Предыдущее значение скролла
@@ -40,6 +40,12 @@ export const TopSlice = () => {
         })
     }
 
+    const fillDescription = () => {
+        return description.map((span, index) => {
+            return <span key={index}>{span}</span>
+        })
+    }
+
     return (
         <div ref={containerRef}
             className={`${styles.container} ${scrollDirection === 'down'
@@ -63,7 +69,7 @@ export const TopSlice = () => {
                                 <Line text={'Описание:'}></Line>
                             </div>
                             <div className={styles.description}>
-                                {context.description}
+                                {fillDescription()}
                             </div>
                         </div>
                         : <></>

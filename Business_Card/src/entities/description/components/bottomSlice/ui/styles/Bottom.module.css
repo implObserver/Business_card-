@@ -20,6 +20,7 @@
     height: 100%;
     grid-area: description;
     z-index: 3;
+    padding-right: var(--responsive-size);
 }
 
 :root {
@@ -31,18 +32,26 @@
     display: grid;
     grid-area: once;
     transition: transform 500ms ease-in-out;
-    z-index: 0;
-    width: inherit;
+    z-index: 2;
+    width: 100%;
 }
 
 .slice {
     display: grid;
     height: inherit;
     align-items: center;
-    border: calc(var(--responsive-size) * 0.5) solid black;
+    border: calc(var(--responsive-size)*0.3) rgba(250, 236, 218, 0) solid;
     border-radius: calc(var(--responsive-size) * 0.5);
     padding: calc(var(--responsive-size) * 2);
     min-height: calc(var(--responsive-size) * 14);
+}
+
+.scroll_down {
+    transform: translateY(var(--transform_up));
+}
+
+.scroll_up {
+    transform: translateY(var(--transform_down));
 }
 
 .parameters {
@@ -61,9 +70,11 @@
 }
 
 .description {
-    display: flex;
+    display: grid;
     padding: var(--responsive-size);
+    padding-left: calc(var(--responsive-size) * 4);
     font-size: calc(var(--responsive-size) * 2);
+    gap: var(--responsive-size);
     z-index: 1;
 }
 
@@ -92,5 +103,4 @@
     list-style-position: inside;
     font-size: calc(var(--responsive-size) * 2);
     gap: var(--responsive-size);
-    width: inherit;
 }
