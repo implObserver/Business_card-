@@ -1,66 +1,66 @@
 {
     "css": {
         "name": "CSS",
-        "image": "/src/shared/assets/skills/css.svg"
+        "image": "./src/shared/assets/skills/css.svg"
     },
     "express": {
         "name": "Node",
-        "image": "/src/shared/assets/skills/express.svg"
+        "image": "./src/shared/assets/skills/express.svg"
     },
     "git": {
         "name": "Git",
-        "image": "/src/shared/assets/skills/git.svg"
+        "image": "./src/shared/assets/skills/git.svg"
     },
     "github": {
         "name": "Github",
-        "image": "/src/shared/assets/skills/github.svg"
+        "image": "./src/shared/assets/skills/github.svg"
     },
     "html": {
         "name": "HTML",
-        "image": "/src/shared/assets/skills/html.svg"
+        "image": "./src/shared/assets/skills/html.svg"
     },
     "javascript": {
         "name": "JavaScript",
-        "image": "/src/shared/assets/skills/javascript.svg"
+        "image": "./src/shared/assets/skills/javascript.svg"
     },
     "mongo": {
         "name": "MongoDB",
-        "image": "/src/shared/assets/skills/mongo.svg"
+        "image": "./src/shared/assets/skills/mongo.svg"
     },
     "nodejs": {
         "name": "NodeJS",
-        "image": "/src/shared/assets/skills/nodejs.svg"
+        "image": "./src/shared/assets/skills/nodejs.svg"
     },
     "npm": {
         "name": "NPM",
-        "image": "/src/shared/assets/skills/npm.svg"
+        "image": "./src/shared/assets/skills/npm.svg"
     },
     "postgresql": {
         "name": "PostgreSQL",
-        "image": "/src/shared/assets/skills/postgresql.svg"
+        "image": "./src/shared/assets/skills/postgresql.svg"
     },
     "prisma": {
         "name": "Prisma",
-        "image": "/src/shared/assets/skills/prisma.svg"
+        "image": "./src/shared/assets/skills/prisma.svg"
     },
     "react": {
         "name": "React",
-        "image": "/src/shared/assets/skills/react.svg"
+        "image": "./src/shared/assets/skills/react.svg"
     },
     "redux": {
         "name": "Redux",
-        "image": "/src/shared/assets/skills/redux.svg"
+        "image": "./src/shared/assets/skills/redux.svg"
     },
     "typescript": {
         "name": "Typescript",
-        "image": "/src/shared/assets/skills/typescript.svg"
+        "image": "./src/shared/assets/skills/typescript.svg"
     },
     "vite": {
         "name": "Vite",
-        "image": "/src/shared/assets/skills/vite.svg"
+        "image": "./src/shared/assets/skills/vite.svg"
     },
     "webpack": {
         "name": "Webpack",
-        "image": "/src/shared/assets/skills/webpack.svg"
+        "image": "./src/shared/assets/skills/webpack.svg"
     }
 }
