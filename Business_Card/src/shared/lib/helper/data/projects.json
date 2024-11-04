@@ -12,7 +12,8 @@
             "/src/shared/assets/projects/ticTacToe/ticTacToe_scale,w_905.webp",
             "/src/shared/assets/projects/ticTacToe/ticTacToe_scale,w_1318.webp"
         ],
-        "link": ""
+        "link": "https://implobserver.github.io/TicTacToe/",
+        "repository": "https://github.com/implObserver/TicTacToe"
     },
     "BattleShip": {
         "name": "Морской бой",
@@ -27,7 +28,8 @@
             "/src/shared/assets/projects/battleShip/battleShip_znkt60_c_scale,w_750.webp",
             "/src/shared/assets/projects/battleShip/battleShip_znkt60_c_scale,w_1318.webp"
         ],
-        "link": ""
+        "link": "https://implobserver.github.io/BattleShip/",
+        "repository": "https://github.com/implObserver/BattleShip"
     },
     "KnightsTravails": {
         "name": "Путь конем",
@@ -41,7 +43,8 @@
             "/src/shared/assets/projects/knightTravelers/knightTravelers_ipiv1f_c_scale,w_727.webp",
             "/src/shared/assets/projects/knightTravelers/knightTravelers_ipiv1f_c_scale,w_1318.webp"
         ],
-        "link": ""
+        "link": "https://implobserver.github.io/KnightsTravails/",
+        "repository": "https://github.com/implObserver/KnightsTravails"
     },
     "TODOManager": {
         "name": "Записная книжка",
@@ -55,7 +58,8 @@
             "/src/shared/assets/projects/TODO-Manager/TODO-Manager_lj0ive_c_scale,w_1160.webp",
             "/src/shared/assets/projects/TODO-Manager/TODO-Manager_lj0ive_c_scale,w_1318.webp"
         ],
-        "link": ""
+        "link": "https://implobserver.github.io/TODO-Manager/",
+        "repository": "https://github.com/implObserver/TODO-Manager"
     },
     "WeatherApp": {
         "name": "Прогноз погоды",
@@ -69,7 +73,8 @@
             "/src/shared/assets/projects/WeatherApp/WeatherApp_pqwqwj_c_scale,w_688.webp",
             "/src/shared/assets/projects/WeatherApp/WeatherApp_pqwqwj_c_scale,w_1318.webp"
         ],
-        "link": ""
+        "link": "https://implobserver.github.io/WeatherApp/",
+        "repository": "https://github.com/implObserver/WeatherApp"
     },
     "CVApplication": {
         "name": "Резюме-конструктор",
@@ -82,7 +87,8 @@
             "/src/shared/assets/projects/cvApplication/cvApplication_rvirmq_c_scale,w_795.webp",
             "/src/shared/assets/projects/cvApplication/cvApplication_rvirmq_c_scale,w_1223.webp"
         ],
-        "link": "https://cv-applicationstudyproject.netlify.app/"
+        "link": "https://cv-applicationstudyproject.netlify.app/",
+        "repository": "https://github.com/implObserver/CV-Applications"
     },
     "MemoryCard": {
         "name": "Игра 'Запомни карту'",
@@ -102,7 +108,8 @@
             "/src/shared/assets/projects/memoryCard/memoryCard_uutnw8_c_scale,w_785.webp",
             "/src/shared/assets/projects/memoryCard/memoryCard_uutnw8_c_scale,w_1195.webp"
         ],
-        "link": "https://memorycardgamepokemon.netlify.app/"
+        "link": "https://memorycardgamepokemon.netlify.app/",
+        "repository": "https://github.com/implObserver/MemoryCard"
     },
     "BlogApi": {
         "name": "Блог",
@@ -130,7 +137,8 @@
             "/src/shared/assets/projects/blogApi/blogApi_oop04s_c_scale,w_773.webp",
             "/src/shared/assets/projects/blogApi/blogApi_oop04s_c_scale,w_1237.webp"
         ],
-        "link": "https://blogapifront.netlify.app/"
+        "link": "https://blogapifront.netlify.app/",
+        "repository": "https://github.com/implObserver/Blog_API_Solutions"
     },
     "OldBusinessSite": {
         "name": "Старый сайт-визитка",
@@ -144,6 +152,7 @@
             "/src/shared/assets/projects/oldBusinessCard/oldBusinessCard_violjy_c_scale,w_817.webp",
             "/src/shared/assets/projects/oldBusinessCard/oldBusinessCard_violjy_c_scale,w_1244.webp"
         ],
-        "link": "https://implobserver.github.io/homepage/"
+        "link": "https://implobserver.github.io/homepage/",
+        "repository": "https://github.com/implObserver/homepage"
     }
 }

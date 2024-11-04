@@ -1,7 +1,7 @@
 .description {
     display: grid;
-    width: 80vw;
-    height: min-content;
-    padding: 1vw;
-    grid-template-areas: 'once';
+    padding: var(--responsive-size);
+    font-size: calc(var(--responsive-size) * 2.5);
+    gap: var(--responsive-size);
+    font-weight: 300;
 }

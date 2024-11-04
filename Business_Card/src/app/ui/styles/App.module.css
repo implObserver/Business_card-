@@ -13,8 +13,21 @@
   --color__main-theme_accent: #dedfe0;
   --color__secondary-theme: #007bff;
   --font_family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Roboto;
   color-scheme: light dark;
+  --responsive-size: 1vw;
+}
+
+@media (min-width: 1000px) {
+  :root {
+    --responsive-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  :root {
+    --responsive-size: 1px;
+  }
 }
 
 .app {
@@ -26,17 +39,32 @@
 
 .main_layout {
   display: grid;
-  height: inherit;
+  height: 100%;
   grid-template-rows: min-content 1fr min-content;
+  background-image: url('/src/shared/assets/preview5.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  scroll-behavior: smooth;
 }
 
 header {
   display: grid;
 }
 
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
 .body {
   min-height: 100%;
 }
 
-footer {
+.outlet {
+  background-color: rgba(153, 148, 143, 0.4);
 }
+
+footer {}

@@ -1,3 +1,6 @@
 .title {
-    font-size: 4vw;
+    display: grid;
+    font-size: calc(var(--responsive-size)*6);
+    justify-items: center;
+    font-weight: 400;
 }

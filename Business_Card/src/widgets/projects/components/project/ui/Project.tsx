@@ -11,6 +11,7 @@ export const Project = () => {
         description: project.description,
         parameters: project.parameters,
         link: project.link,
+        repository: project.repository,
     }
     return (
         <div className={styles.project}>

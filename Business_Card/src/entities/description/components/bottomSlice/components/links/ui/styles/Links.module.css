@@ -1,0 +1,64 @@
+.links {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-self: right;
+    align-self: self-end;
+    height: inherit;
+    padding: calc(var(--responsive-size) * 0.4);
+    z-index: 2;
+}
+
+.github,
+.link {
+    position: relative;
+    justify-content: center;
+    background-color: red;
+    box-shadow: 0 0 min(1vh, 1vw) red;
+    /* Тут можно оставить как есть или также заменить */
+    width: calc(var(--responsive-size) * 4);
+    height: 100%;
+    cursor: pointer;
+    transition: transform 500ms ease-in-out;
+}
+
+.github:hover {
+    transform: translateY(calc(var(--responsive-size) * 1));
+}
+
+.link:hover {
+    transform: translateY(calc(var(--responsive-size) * -1));
+}
+
+.link {
+    display: grid;
+    padding-top: calc(var(--responsive-size) * 0.3);
+    align-items: start;
+    border-radius: calc(var(--responsive-size) * 0.5) calc(var(--responsive-size) * 0.5) 0 0;
+}
+
+.link>.svg {
+    background-image: url('../../../../../../../../shared/assets/play.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.github {
+    display: grid;
+    padding-bottom: calc(var(--responsive-size) * 0.3);
+    align-items: end;
+    align-self: self-end;
+    border-radius: 0 0 calc(var(--responsive-size) * 0.5) calc(var(--responsive-size) * 0.5);
+}
+
+.svg {
+    display: grid;
+    width: calc(var(--responsive-size) * 3);
+    height: calc(var(--responsive-size) * 3);
+    filter: invert(100%) sepia(0%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+.github>.svg {
+    background-image: url('../../../../../../../../shared/assets/skills/github.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}

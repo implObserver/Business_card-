@@ -1,7 +1,13 @@
 .main {
     display: grid;
-    padding: 0.5vw;
-    gap:1vw;
+    padding: calc(var(--responsive-size) * 0.5);
+}
+
+@media (min-width: 1500px) {
+    .main {
+        justify-self: center;
+        width: calc(var(--responsive-size)*150);
+    }
 }
 
 /*

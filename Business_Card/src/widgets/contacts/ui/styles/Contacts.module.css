@@ -1,0 +1,48 @@
+.contacts {
+    display: grid;
+    padding: var(--responsive-size);
+    justify-content: center;
+    gap: calc(var(--responsive-size)*4);
+    padding: calc(var(--responsive-size)*2);
+}
+
+.title {
+    display: flex;
+    padding: var(--responsive-size);
+    background-color: rgba(253, 246, 237, 0.295);
+    border: calc(var(--responsive-size)*0.3) rgb(250, 236, 218) solid;
+    border-radius: var(--responsive-size);
+    width: min-content;
+    justify-self: center;
+}
+
+.links {
+    display: flex;
+    width: min-content;
+    padding: var(--responsive-size);
+    background-color: rgba(253, 246, 237, 0.295);
+    border: calc(var(--responsive-size)*0.3) rgb(250, 236, 218) solid;
+    border-radius: var(--responsive-size);
+    justify-self: center;
+    gap: calc(var(--responsive-size)*5);
+}
+
+.svg {
+    display: grid;
+    width: calc(var(--responsive-size)*10);
+    height: calc(var(--responsive-size)*10);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.github {
+    display: grid;
+}
+
+.github>.svg {
+    background-image: url('../../../../shared/assets/skills/github.svg');
+}
+
+.mail>.svg {
+    background-image: url('../../../../shared/assets/skills/gmail.svg');
+}

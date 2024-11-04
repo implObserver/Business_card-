@@ -1,7 +1,12 @@
 .description {
     display: grid;
-    padding: 1vw;
-    font-size: 2.5vw;
-    gap:1vw;
+    padding: var(--responsive-size);
+    font-size: calc(var(--responsive-size)*3);
     font-weight: 300;
+}
+
+.thankyou {
+    display: flex;
+    justify-content: center;
+    padding-top: var(--responsive-size);
 }

@@ -9,10 +9,10 @@ export const MainLayout: React.FC = () => {
 
     return (
         <div className={styles.main_layout}>
-            <header>
+            <header className={styles.header}>
                 <Header />
             </header>
-            <div>
+            <div className={styles.outlet}>
                 <Outlet />
             </div>
             <footer>

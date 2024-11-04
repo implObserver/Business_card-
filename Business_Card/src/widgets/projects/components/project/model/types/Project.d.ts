@@ -4,4 +4,5 @@ interface Project {
     parameters: string[];
     preview: string[];
     link: string;
+    repository: string,
 }

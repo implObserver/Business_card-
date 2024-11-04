@@ -1,5 +1,9 @@
 .about_me {
     display: grid;
-    border: 0.5vw black solid;
-    padding: 2vw;
+    padding: calc(var(--responsive-size)*2);
+    border-radius: var(--responsive-size) var(--responsive-size) var(--responsive-size) var(--responsive-size);
+    background-color: rgb(253, 246, 237);
+    border: calc(var(--responsive-size)*0.3) rgb(250, 236, 218) solid;
+    text-align: center;
+    gap: calc(var(--responsive-size)*2)
 }

@@ -1,28 +1,29 @@
 .title {
     display: grid;
-    padding: 2vw;
+    justify-content: center;
+    padding: calc(8 * var(--responsive-size));
 }
 
 .firstname {
-    padding-left: 10vw;
+    padding-left: calc(10 * var(--responsive-size));
 }
 
 .secondname {
-    padding-left: 20vw;
+    padding-left: calc(20 * var(--responsive-size));
 }
 
 .profession {
     display: flex;
     flex-wrap: wrap;
-    font-size: 5vw;
-    gap: 2vw;
-    padding-left: 30vw;
-    padding-top: 3vw;
+    font-size: calc(5 * var(--responsive-size));
+    gap: calc(2 * var(--responsive-size));
+    padding-left: calc(30 * var(--responsive-size));
+    padding-top: calc(3 * var(--responsive-size));
 }
 
 .firstname,
 .secondname {
-    font-size: 10vw;
+    font-size: calc(10 * var(--responsive-size));
     font-weight: 200;
 }
 
