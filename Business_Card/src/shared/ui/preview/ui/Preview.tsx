@@ -19,6 +19,7 @@ export const Preview = () => {
                 srcSet={srcSetString}
                 src={previews[previews.length - 1]}
                 alt="Описание изображения"
+                loading="lazy"
             />
         </div>
     );
