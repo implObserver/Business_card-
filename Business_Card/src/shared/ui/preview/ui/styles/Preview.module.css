@@ -3,6 +3,6 @@
     border: calc(var(--responsive-size)*0.3) rgb(250, 236, 218) solid;
     border-radius: calc(var(--responsive-size) * 0.5);
     width: min-content;
-    width: min-content;
-    overflow: hidden;
+    border:1px red solid;
+    justify-content: center;
 }
