@@ -52,6 +52,7 @@
   background-attachment: fixed;
   background-position: center center;
   scroll-behavior: smooth;
+  min-height: 100%;
 }
 
 header {
