@@ -6,6 +6,7 @@ import styles from './styles/Project.module.css'
 export const Project = () => {
     const project = useProjectContext();
     const previewContext: string[] = project.preview;
+
     const descriptionContext: Description = {
         name: project.name,
         description: project.description,
