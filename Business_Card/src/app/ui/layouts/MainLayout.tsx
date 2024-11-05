@@ -15,9 +15,19 @@ export const MainLayout: React.FC = () => {
             }
         };
 
+        const handleResize = () => {
+            // Обновление при изменении высоты
+            if (mainLayoutRef.current) {
+                mainLayoutRef.current.style.backgroundPositionY = 'center';
+            }
+        };
+
         window.addEventListener('scroll', handleScroll);
+        window.addEventListener('resize', handleResize);
+
         return () => {
             window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('resize', handleResize);
         };
     }, []);
     

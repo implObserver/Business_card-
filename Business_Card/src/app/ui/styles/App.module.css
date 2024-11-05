@@ -47,7 +47,7 @@
 
 .main_layout {
   display: grid;
-  grid-template-rows: min-content 1fr min-content;
+  height: 100%;
   background-image: url('/src/shared/assets/preview5.webp');
   background-size: cover;
   background-repeat: no-repeat;
