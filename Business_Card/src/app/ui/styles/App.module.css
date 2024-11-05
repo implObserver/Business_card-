@@ -24,6 +24,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .main_layout {
+      background-attachment: scroll;
+  }
+}
+
 @media (max-width: 300px) {
   :root {
     --responsive-size: 1px;
