@@ -39,8 +39,12 @@
 .app {
   display: grid;
   width: 100%;
-  height: max-content;
+  height: 100%;
   font-size: 1rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  scroll-behavior: smooth;
 }
 
 .main_layout {
@@ -70,6 +74,12 @@ header {
 }
 
 .plug {
+  display: grid;
+  min-height: 100%;
   padding: calc(var(--responsive-size) * 0.5);
   background-color: rgba(153, 148, 143, 0.4);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  scroll-behavior: smooth;
 }
