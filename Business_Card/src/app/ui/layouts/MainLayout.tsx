@@ -6,7 +6,7 @@ import { Footer } from '@/widgets/footer';
 
 export const MainLayout: React.FC = () => {
     const { pathname } = useLocation();
-
+    
     return (
         <div className={styles.main_layout}>
             <div className={styles.plug}>
