@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import styles from './styles/Carousel.module.css';
 import { skills } from '@/shared/lib';
 
-const components = Object.keys(skills).map(key => skills[key]);;
+const components = Object.keys(skills).map(key => skills[key]);
 
 export const Carousel = () => {
     const step = 13;

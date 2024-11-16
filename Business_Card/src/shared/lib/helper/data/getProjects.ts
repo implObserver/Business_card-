@@ -70,7 +70,7 @@ export const projects = {
         link: "https://implobserver.github.io/KnightsTravails/",
         repository: "https://github.com/implObserver/KnightsTravails"
     },
-    TODOManager: {
+    /*TODOManager: {
         name: "Записная книжка",
         description: [
             "Примитивная имитация файловой системы внутри веб-браузера. Можно создавать структуры папок и текстовых записей.",
@@ -91,7 +91,7 @@ export const projects = {
         preview: [weatherAppImage1, weatherAppImage2, weatherAppImage3],
         link: "https://implobserver.github.io/WeatherApp/",
         repository: "https://github.com/implObserver/WeatherApp"
-    },
+    },*/
     CVApplication: {
         name: "Резюме-конструктор",
         description: [
