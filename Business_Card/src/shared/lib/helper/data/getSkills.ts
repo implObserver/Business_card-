@@ -17,7 +17,7 @@ import webpackImage from '@/shared/assets/skills/webpack.svg';
 
 export const skills = {
     css: { name: "CSS", image: cssImage },
-    express: { name: "Node", image: expressImage },
+    express: { name: "Express", image: expressImage },
     git: { name: "Git", image: gitImage },
     github: { name: "Github", image: githubImage },
     html: { name: "HTML", image: htmlImage },
