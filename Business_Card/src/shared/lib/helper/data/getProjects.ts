@@ -30,6 +30,11 @@ import blogApiImage1 from '@/shared/assets/projects/blogApi/blogApi_oop04s_c_sca
 import blogApiImage2 from '@/shared/assets/projects/blogApi/blogApi_oop04s_c_scale,w_773.webp';
 import blogApiImage3 from '@/shared/assets/projects/blogApi/blogApi_oop04s_c_scale,w_1237.webp';
 
+import passwordManagerImage1 from '@/shared/assets/projects/passwordManager/passwordManager_fhreup_c_scale,w_50.webp'
+import passwordManagerImage2 from '@/shared/assets/projects/passwordManager/passwordManager_fhreup_c_scale,w_713.webp'
+import passwordManagerImage3 from '@/shared/assets/projects/passwordManager/passwordManager_fhreup_c_scale,w_1083.webp'
+import passwordManagerImage4 from '@/shared/assets/projects/passwordManager/passwordManager_fhreup_c_scale,w_1152.webp'
+
 import oldBusinessCardImage1 from '@/shared/assets/projects/oldBusinessCard/oldBusinessCard_violjy_c_scale,w_50.webp';
 import oldBusinessCardImage2 from '@/shared/assets/projects/oldBusinessCard/oldBusinessCard_violjy_c_scale,w_817.webp';
 import oldBusinessCardImage3 from '@/shared/assets/projects/oldBusinessCard/oldBusinessCard_violjy_c_scale,w_1244.webp';
@@ -144,11 +149,27 @@ export const projects = {
         link: "https://blogapifront.netlify.app/",
         repository: "https://github.com/implObserver/Blog_API_Solutions"
     },
+    PasswordManager: {
+        name: "Менеджер Паролей",
+        description: [
+            "Простой менеджер паролей",
+            "Только фронт-енд"
+        ],
+        parameters: [
+            "React",
+            "Hybrid pseudoservices Feature Sliced Design - собственная разработка",
+            "SPA(The Single Page Application)",
+            "Redux Toolkit/Persist",
+        ],
+        preview: [passwordManagerImage1, passwordManagerImage2, passwordManagerImage3, passwordManagerImage4],
+        link: "https://ultimatepasswordmanager.netlify.app/",
+        repository: "https://github.com/implObserver/shoppingCart_backEnd-microservices"
+    },
     OldBusinessSite: {
         name: "Старый сайт-визитка",
         description: [
             "Мой первый сайт визитка.",
-            "Написан без использования react и FSD, труден для масштабирования."
+            "Написан без использования react и FSD, труден для масштабирования.",
         ],
         parameters: [],
         preview: [oldBusinessCardImage1, oldBusinessCardImage2, oldBusinessCardImage3],
