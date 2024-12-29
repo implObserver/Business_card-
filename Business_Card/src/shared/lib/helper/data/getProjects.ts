@@ -39,6 +39,8 @@ import oldBusinessCardImage1 from '@/shared/assets/projects/oldBusinessCard/oldB
 import oldBusinessCardImage2 from '@/shared/assets/projects/oldBusinessCard/oldBusinessCard_violjy_c_scale,w_817.webp';
 import oldBusinessCardImage3 from '@/shared/assets/projects/oldBusinessCard/oldBusinessCard_violjy_c_scale,w_1244.webp';
 
+import testProductsImage1 from '@/shared/assets/projects/testProduct/screen.png'
+
 export const projects = {
     TicTacToe: {
         name: "Крестики-нолики",
@@ -164,6 +166,23 @@ export const projects = {
         preview: [passwordManagerImage1, passwordManagerImage2, passwordManagerImage3, passwordManagerImage4],
         link: "https://ultimatepasswordmanager.netlify.app/",
         repository: "https://github.com/implObserver/shoppingCart_backEnd-microservices"
+    },
+    TestProduct: {
+        name: "Магазин",
+        description: [
+            "Простой магазин",
+            "Только фронт-енд",
+            "Товары получены Platzi Fake Store API"
+        ],
+        parameters: [
+            "React",
+            "Hybrid pseudoservices Feature Sliced Design - собственная разработка",
+            "SPA(The Single Page Application)",
+            "Redux Toolkit/Persist",
+        ],
+        preview: [testProductsImage1],
+        link: "https://superb-llama-93e7c0.netlify.app/",
+        repository: "https://github.com/implObserver/testProducts/tree/main"
     },
     OldBusinessSite: {
         name: "Старый сайт-визитка",

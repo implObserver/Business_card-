@@ -14,6 +14,7 @@ import reduxImage from '@/shared/assets/skills/redux.svg';
 import typescriptImage from '@/shared/assets/skills/typescript.svg';
 import viteImage from '@/shared/assets/skills/vite.svg';
 import webpackImage from '@/shared/assets/skills/webpack.svg';
+import mobXImgae from '@/shared/assets/skills/mobx.svg'
 
 export const skills = {
     css: { name: "CSS", image: cssImage },
@@ -29,6 +30,7 @@ export const skills = {
     prisma: { name: "Prisma", image: prismaImage },
     react: { name: "React", image: reactImage },
     redux: { name: "Redux", image: reduxImage },
+    mobX: { name: "MobX", image: mobXImgae },
     typescript: { name: "Typescript", image: typescriptImage },
     vite: { name: "Vite", image: viteImage },
     webpack: { name: "Webpack", image: webpackImage },
