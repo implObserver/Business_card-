@@ -5,6 +5,7 @@ import styles from './styles/Projects.module.css'
 
 export const Projects = () => {
     const titleContext: string = 'Проекты';
+
     const fill = () => {
         return Object.entries(projects).map(([key, project]) => (
             <div className={styles.project} key={key}>

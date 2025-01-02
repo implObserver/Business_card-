@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    gap: var(--responsive-size)
+}
+
+.hidden {
+    display: none;
+}
+
+.projects {
+    display: grid;
+    padding: calc(var(--responsive-size) * 2);
+    
+    ;
+    gap: calc(var(--responsive-size) * 5);
+}
+
+.project {
+    display: grid;
+    gap: calc(var(--responsive-size)*4);
+    justify-items: center;
+}
+
+.title {
+    padding: var(--responsive-size);
+    background-color: rgba(253, 246, 237, 0.295);
+    border: calc(var(--responsive-size)*0.3) rgb(250, 236, 218) solid;
+    border-radius: var(--responsive-size);
+    width: min-content;
+    justify-self: center;
+}
+
+.recent_line {
+    display: flex;
+    align-self: center;
+    background-color: rgba(137, 192, 115, 0.5);
+    border-radius: var(--responsive-size);
+    width: 100%;
+    height: var(--responsive-size);
+}

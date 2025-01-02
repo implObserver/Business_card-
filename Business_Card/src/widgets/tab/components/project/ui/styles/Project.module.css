@@ -1,0 +1,9 @@
+.project {
+    display: flex;
+    padding: var(--responsive-size);
+    gap: calc(var(--responsive-size) * 4);
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(var(--responsive-size) * 80);
+    border-radius: var(--responsive-size);
+}

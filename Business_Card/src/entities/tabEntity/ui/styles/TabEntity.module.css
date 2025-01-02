@@ -1,0 +1,27 @@
+.tab {
+    display: flex;
+    align-items: center;
+    padding: calc(var(--responsive-size)*2);
+    border-radius: var(--responsive-size) var(--responsive-size) var(--responsive-size) var(--responsive-size);
+    border: 1px red solid;
+    font-size: calc(var(--responsive-size)*3);
+    background-color: var(--color__main-theme);
+    border: calc(var(--responsive-size)*0.4) var(--color__main-theme_accent) solid;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--color__main-theme_accent);
+    }
+}
+
+.arrow {
+    display: grid;
+    width: calc(var(--responsive-size)*5);
+    height: calc(var(--responsive-size)*5);
+    background-image: url(../../../../shared/assets/components/arrow-right.svg);
+    background-size: 100%;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}

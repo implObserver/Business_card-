@@ -43,6 +43,7 @@ import testProductsImage1 from '@/shared/assets/projects/testProduct/screen.png'
 
 export const projects = {
     TicTacToe: {
+        type: 'Vanilla',
         name: "Крестики-нолики",
         description: [],
         parameters: [
@@ -55,6 +56,7 @@ export const projects = {
         repository: "https://github.com/implObserver/TicTacToe"
     },
     BattleShip: {
+        type: 'Vanilla',
         name: "Морской бой",
         description: [],
         parameters: [
@@ -67,6 +69,7 @@ export const projects = {
         repository: "https://github.com/implObserver/BattleShip"
     },
     KnightsTravails: {
+        type: 'Vanilla',
         name: "Путь конем",
         description: [
             "Визуализация алгоритма, который выстраивает кратчайший путь конем из произвольных пунктов А и Б.",
@@ -99,7 +102,8 @@ export const projects = {
         link: "https://implobserver.github.io/WeatherApp/",
         repository: "https://github.com/implObserver/WeatherApp"
     },*/
-    CVApplication: {
+    /*CVApplication: {
+        type: 'React',
         name: "Резюме-конструктор",
         description: [
             "Написанный на реакт конструктор для резюме."
@@ -108,8 +112,9 @@ export const projects = {
         preview: [cvApplicationImage1, cvApplicationImage2, cvApplicationImage3],
         link: "https://cv-applicationstudyproject.netlify.app/",
         repository: "https://github.com/implObserver/CV-Applications"
-    },
+    },*/
     MemoryCard: {
+        type: 'React',
         name: "Игра 'Запомни карту'",
         description: [
             "Написанный на React сайт-игра, на котором надо набрать как можно больше очков, не повторившись при выборе карты.",
@@ -127,11 +132,13 @@ export const projects = {
         repository: "https://github.com/implObserver/MemoryCard"
     },
     BlogApi: {
+        type: 'React, FullStack',
         name: "Блог",
         description: [
             "Fullstack приложение, блог+конструктор для постов блога.",
             "Можно конструировать свои посты и публиковать в блоге.",
-            "ВНИМАНИЕ: применяются бесплатные хостинги, возможны проблемы с доступом к сайту или замедление работы."
+            "ВНИМАНИЕ: применяются бесплатные хостинги, возможны проблемы с доступом к сайту или замедление работы.",
+            "НЕОБХОДИМО подождать несколько минут, прежде чем сайт заработает"
         ],
         parameters: [
             "Два фронтенда",
@@ -152,6 +159,7 @@ export const projects = {
         repository: "https://github.com/implObserver/Blog_API_Solutions"
     },
     PasswordManager: {
+        type: 'React',
         name: "Менеджер Паролей",
         description: [
             "Простой менеджер паролей",
@@ -168,6 +176,7 @@ export const projects = {
         repository: "https://github.com/implObserver/shoppingCart_backEnd-microservices"
     },
     TestProduct: {
+        type: 'React',
         name: "Магазин",
         description: [
             "Простой магазин",
@@ -185,6 +194,7 @@ export const projects = {
         repository: "https://github.com/implObserver/testProducts/tree/main"
     },
     OldBusinessSite: {
+        type: 'Vanilla',
         name: "Старый сайт-визитка",
         description: [
             "Мой первый сайт визитка.",

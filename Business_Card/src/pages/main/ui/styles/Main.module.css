@@ -9,6 +9,17 @@
     }
 }
 
+.title {
+    margin-top: calc(var(--responsive-size)*5);
+    margin-bottom: calc(var(--responsive-size)*2);
+    padding: var(--responsive-size);
+    background-color: rgba(253, 246, 237, 0.295);
+    border: calc(var(--responsive-size)*0.3) rgb(250, 236, 218) solid;
+    border-radius: var(--responsive-size);
+    width: min-content;
+    justify-self: center;
+}
+
 /*
 background-image: url('/src/shared/assets/preview4.webp');
     background-size: cover;
