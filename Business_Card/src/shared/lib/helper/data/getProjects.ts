@@ -40,6 +40,7 @@ import oldBusinessCardImage2 from '@/shared/assets/projects/oldBusinessCard/oldB
 import oldBusinessCardImage3 from '@/shared/assets/projects/oldBusinessCard/oldBusinessCard_violjy_c_scale,w_1244.webp';
 
 import testProductsImage1 from '@/shared/assets/projects/testProduct/screen.png'
+import testTodoImage1 from '@/shared/assets/projects/testTodo/testTodo.png'
 
 export const projects = {
     TicTacToe: {
@@ -192,6 +193,23 @@ export const projects = {
         preview: [testProductsImage1],
         link: "https://superb-llama-93e7c0.netlify.app/",
         repository: "https://github.com/implObserver/testProducts/tree/main"
+    },
+    TestTodo: {
+        type: 'React',
+        name: "Задачник",
+        description: [
+            "Простой задачник",
+            "Только фронт-енд",
+        ],
+        parameters: [
+            "React",
+            "Hybrid pseudoservices Feature Sliced Design - собственная разработка",
+            "SPA(The Single Page Application)",
+            "Redux Toolkit/Persist",
+        ],
+        preview: [testTodoImage1],
+        link: "https://sunny-marigold-d035ca.netlify.app/",
+        repository: "https://github.com/implObserver/testTODO"
     },
     OldBusinessSite: {
         type: 'Vanilla',
